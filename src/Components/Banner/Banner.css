@@ -1,0 +1,56 @@
+.banner {
+
+    background-size: cover;
+    background-position-x: center;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    position: fixed;
+}
+
+.banner .fade {
+    width: 100%;
+    height: 100%;
+    background-color: #000000a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner .fade h3 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.banner .fade p {
+    color: #f59e00;
+    font-weight: bold;
+}
+
+.banner a {
+    margin-top: 2rem;
+    border: 1px solid;
+    border-color: #4e3000;
+    padding: 11px;
+    background-color: #623b00;
+    color: white;
+    text-decoration: none;
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner a:hover {
+    width: 10em;
+    height: 2rem;
+    background-color: #000000;
+    color: #ff9a00;
+}

@@ -1,0 +1,97 @@
+/* Add a black background color to the top navigation */
+.navbar {
+   
+    overflow: hidden;
+    height: 4rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    /* Add a transition to the transform property */
+    z-index: 1000;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+        font-weight: 600;
+    color: #ffb100;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  
+    color: rgb(255, 255, 255);
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+    display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the navbar (".icon") */
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+.navbar .right {
+    position: absolute;
+    right: 30px;
+
+}
+
+.navbar .left {
+    position: none;
+    right: 30px;
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+    .navbar {
+        align-items: none;
+    }
+    
+    .navbar.responsive {
+        position: relative;
+        height: auto;
+        display: block;
+        transition: all 0.3s ease-in;
+    }
+    
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .navbar .right {
+        position: absolute;
+        right: 5px;
+    
+    }
+}
