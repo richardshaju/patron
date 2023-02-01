@@ -1,11 +1,13 @@
+.wrap{
+    z-index: 100;
+    position: absolute;
+    margin-top: 39rem;
+}
 .main {
     background-color: black;
     height: 33rem;
     padding: 47px 55px;
     display: flex;
-    z-index: 100;
-    position: absolute;
-    margin-top: 39rem;
     align-items: center;
 }
 
@@ -42,4 +44,8 @@
 
 .wrap-image img {
     width: 19rem;
+}
+.service-wrap{
+    width: 100%;
+    height: auto;
 }

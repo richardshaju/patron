@@ -2,7 +2,7 @@
 .navbar {
    
     overflow: hidden;
-    height: 4rem;
+    height: 5rem;
     position: fixed;
     width: 100%;
     display: flex;
@@ -94,4 +94,19 @@
         right: 5px;
     
     }
+}
+.brand{
+    padding-left: 3rem;
+    display: flex;
+    width: 13%;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand-name{
+    width: 2rem;
+    rotate: 270deg;
+}
+.brand-logo{
+    width: 4rem;
+    rotate: 270deg;
 }

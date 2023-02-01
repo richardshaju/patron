@@ -3,12 +3,10 @@ import './Navbar.css'
 
 function Navbar() {
     const [isNavbarOpen, setIsNavbarOpen] = useState(false);
-
     const handleNavbar = () => {
         setIsNavbarOpen(!isNavbarOpen);
     }
     const [color, setColor] = useState('');
-
     const listenScrollEvent = () => {
        if (window.scrollY > 200) {
           setColor('rgba(0, 0, 0, 10');
@@ -22,7 +20,8 @@ function Navbar() {
     return (
         <div style={{ backgroundColor: color}} className={`navbar ${isNavbarOpen ? 'responsive' : ''}`}>
             <div className="brand">
-                hiii
+                <img className='brand-logo' src={require("./logo.png")} alt="" />
+                <img className='brand-name' src={require("./brand.png")} alt="" />
             </div>
             <div className={isNavbarOpen ? 'left' : 'right'}>
                 <a href="#"> <br /></a>

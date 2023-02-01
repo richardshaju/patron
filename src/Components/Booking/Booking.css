@@ -1,0 +1,26 @@
+.booking {
+    height: 50rem;
+    background: black;
+    padding: 47px 55px;
+}
+
+.booking h3 {
+    color: white;
+    font-size: 30px;
+    display: flex;
+   
+}
+.booking input{
+    height: 2rem;
+    width: 17rem;
+    background: white;
+    border: 1px solid;
+}
+
+.form-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.booking img{
+    width: 17rem;
+}

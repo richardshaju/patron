@@ -1,0 +1,46 @@
+.service {
+    height: 45rem;
+    background: #0e0900;
+    padding: 20px 55px;
+}
+
+.service h3 {
+    font-size: 40px;
+    color: #ffad00;
+}
+
+.wrap-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.box {
+    background: black;
+    height: 34rem;
+    width: 23rem;
+    transition: transform .3s ease-in-out;; 
+}
+.box:hover{
+    transform: scale(1.03);
+}
+.service img {
+    width: 16rem;
+    margin-top: 2.3rem;
+}
+
+.topic {
+    padding: 5px 57px;
+}
+
+.service .topic h4 {
+    font-size: 24px;
+    color: #ffad00;
+    font-weight: 700;
+}
+
+.service .topic p {
+    color: white;
+    font-size: 17px;
+    font-family: auto;
+}

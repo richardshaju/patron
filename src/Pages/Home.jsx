@@ -11,7 +11,7 @@ function Home() {
       <Navbar />
       <Banner />
       <Main/>
-      <Service/>
+   
     </div>
   )
 }
