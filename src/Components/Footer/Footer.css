@@ -1,4 +1,50 @@
-.footer{
+.footer {
     background: #140d00;
-    height: 30rem;
+    height: 26rem;
+
+
+
+}
+
+.footer .top {
+    display: flex;
+    padding: 27px 47px;
+}
+
+.footer .top img {
+    width: 17rem;
+}
+
+.footer .top .left a {
+    margin-top: -1rem;
+    border: 1px solid;
+    padding: 11px;
+    background-color: #000000;
+    color: #ff9a00;
+    text-decoration: none;
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 15px;
+    font-weight: 700;
+    transition: 0.2s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer .top a:hover {
+    background-color: #623b00;
+    border-color: #4e3000;
+    color: wheat;
+}
+
+.footer .top .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright {
+    background: black;
+    height: 5rem;
 }

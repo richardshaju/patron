@@ -33,7 +33,7 @@ function Banner() {
       <div className="fade">
         <h3>HAVE A FUNCTION? WE'VE <br /> GOT THE CATERING.</h3>
         <p>Bringing high quality food and service to your next event.</p>
-        <a href="#">SCHEDULE NOW</a>
+        <a href="#booking">SCHEDULE NOW</a>
       </div>
     </div>
   )

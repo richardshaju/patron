@@ -1,26 +1,111 @@
 .booking {
-    height: 50rem;
+    height: 34rem;
     background: black;
-    padding: 47px 55px;
+    padding: 70px 55px;
 }
 
 .booking h3 {
     color: white;
     font-size: 30px;
     display: flex;
+    justify-content: center;
    
 }
 .booking input{
-    height: 2rem;
+    height: 2.8em;
     width: 17rem;
-    background: white;
+    background: rgb(0, 0, 0);
     border: 1px solid;
+    padding-left: 8px;
+    border-color: #563900;
+    font-family: inherit;
+    color: white;
 }
-
+.booking input:focus-visible{
+    border-color: #ffb100;;
+    outline: none;
+}
+.booking textarea:focus-visible{
+    border-color: #ffb100;;
+    outline: none;
+}
+.booking ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 0.7; /* Firefox */
+  }
+.booking textarea{
+    min-width: 36rem;
+    min-height: 11rem;
+    max-width: 36rem;
+    max-height: 11rem;
+    padding-left: 8px;
+    padding-top: 5px;
+    background: rgb(0, 0, 0);
+    border: 1px solid;
+    border-color: #563900;
+    font-family: inherit;
+    color: white;
+}
 .form-wrap{
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    align-items: center;
 }
 .booking img{
     width: 17rem;
+}
+.booking .form{
+    width: 40rem;
+}
+.row-1,.row-2,.row-3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.booking select{
+    height: 2.8em;
+    width: 17.5rem;
+    background: rgb(0, 0, 0);
+    border: 1px solid;
+    padding-left: 8px;
+    border-color: #563900;
+    font-family: inherit;
+    color: #ffffffb8;
+}
+.booking select:focus-visible{
+    border-color: #ffb100;;
+    outline: none;
+}
+.booking select option{
+    height: 2.8em;
+    width: 17.5rem;
+    background: rgb(0, 0, 0);
+    border: 1px solid;
+    padding-left: 8px;
+    border-color: #563900;
+    font-family: ui-monospace;
+    color: white;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+.booking button {
+    margin-top: 2rem;
+    border: 1px solid;
+    border-color: #4e3000;
+    padding: 11px;
+    background-color: #623b00;
+    color: white;
+    text-decoration: none;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 14px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+.booking button:hover {
+    background-color: #000000;
+    color: #ff9a00;
 }
