@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/patron/static/css/main.4c89cf47.css",
+    "main.js": "/patron/static/js/main.6492eaac.js",
+    "static/js/787.cb8172b6.chunk.js": "/patron/static/js/787.cb8172b6.chunk.js",
+    "static/media/banner.jpg": "/patron/static/media/banner.e0d858eac90672c734db.jpg",
+    "static/media/wedding.jpg": "/patron/static/media/wedding.a8ab907ab505eff1dff5.jpg",
+    "static/media/corperate.jpg": "/patron/static/media/corperate.65d375f11400d6f17334.jpg",
+    "static/media/banner3.jpg": "/patron/static/media/banner3.c2a5ed2298205bc26e33.jpg",
+    "static/media/food.jpg": "/patron/static/media/food.5bd2594c82ee109537e0.jpg",
+    "static/media/image_1.jpg": "/patron/static/media/image_1.2f4a91a1c1f1e872f934.jpg",
+    "static/media/image_2.jpg": "/patron/static/media/image_2.143ce3a9db128251ef68.jpg",
+    "static/media/logo.png.png": "/patron/static/media/logo.png.ec8aae2e8bda63bc917e.png",
+    "static/media/social.jpg": "/patron/static/media/social.84128b64f3e325ea225b.jpg",
+    "static/media/banner2.jpg": "/patron/static/media/banner2.de35338aeabedf5fa6ed.jpg",
+    "static/media/logo.png": "/patron/static/media/logo.3050b0fef6f0edcc7d76.png",
+    "static/media/plate.png": "/patron/static/media/plate.62bb33ac24840c41a614.png",
+    "static/media/brand.png": "/patron/static/media/brand.089f79c3cf6fb02455c0.png",
+    "index.html": "/patron/index.html",
+    "main.4c89cf47.css.map": "/patron/static/css/main.4c89cf47.css.map",
+    "main.6492eaac.js.map": "/patron/static/js/main.6492eaac.js.map",
+    "787.cb8172b6.chunk.js.map": "/patron/static/js/787.cb8172b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c89cf47.css",
+    "static/js/main.6492eaac.js"
+  ]
+}
